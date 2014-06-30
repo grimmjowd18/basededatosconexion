@@ -8,6 +8,7 @@ public class Main{
     private Connection conexion = null;
     public void estableceConexion()
     {
+        //prueba actualizando desde el github
         if (conexion != null)
             return;
         String url = "jdbc:postgresql://localhost:5432/prueba";
